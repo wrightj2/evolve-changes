@@ -1,6 +1,6 @@
 # evolve-changes
 
-**To allow 4 columns rather than 3 for Text columns with images
+**To allow 4 columns rather than 3 for Text columns with images**
 
 Change feature-columns.liquid
 
