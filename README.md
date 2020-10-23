@@ -10,11 +10,11 @@ From:
         {%- assign grid_item_width = 'medium-up--one-half' -%}
         {%- assign max_height = 530 -%}
         
-        ```
+```
 To:
 ```
 {% when 4 %}
         {%- assign grid_item_width = 'medium-up--one-quarter' -%}
         {%- assign max_height = 530 -%}
         
-        ```
+```
