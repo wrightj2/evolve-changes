@@ -19,6 +19,7 @@ To:
         
 ```
 
+
 **To add Google fonts**
 
 In theme.liquid
@@ -28,7 +29,9 @@ Add:
 ```
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Sacramento&display=swap" rel="stylesheet">
 ```
-** To add extra heading capability to slider widget**
+
+
+**To add extra heading capability to slider widget**
 
 In slideshow.liquid
 
