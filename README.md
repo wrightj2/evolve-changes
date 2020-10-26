@@ -115,3 +115,18 @@ And in JSON area add:
           }
         },
  ```
+
+**To Add 'Interested In' options to Contact form**
+
+In page.contact.liquid
+
+Add
+
+```
+<label for="ContactFormFlavor">Interested In</label>
+        <select id="ContactFormFlavor" name="contact[Interest]">
+          <option>B2B</option>
+          <option>Competitor Reviews & Trends </option>
+          <option>Flowers 2 You</option>
+        </select>
+```
