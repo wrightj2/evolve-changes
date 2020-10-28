@@ -280,3 +280,28 @@ In product-price-listing.liquid and wrap in same if statement as below
 {% endif %}
 ```
 
+**To change contact us form to two column layout**
+
+In 'page.contact.liquid' change the Div Class 'grid__item medium-up--five-sixths medium-up--push-one-twelfth'
+
+From
+
+```
+<div class="page-width">
+  <div class="grid">
+    <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+      <div class="section-header text-center">
+        <h1>{{ page.title }}</h1>
+      </div>
+```
+
+To 'grid__item medium-up--one-half'
+
+```
+<div class="page-width">
+  <div class="grid">
+    <div class="grid__item medium-up--one-half">
+      <div class="section-header text-center">
+        <h1>{{ page.title }}</h1>
+      </div>
+```
