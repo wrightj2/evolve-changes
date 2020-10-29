@@ -305,3 +305,12 @@ To 'grid__item medium-up--one-half'
         <h1>{{ page.title }}</h1>
       </div>
 ```
+**To add extra wording and links to copywrite area of footer**
+
+Add the following at very top of footer.liquid
+
+```
+{% capture powered_by_link %}
+Limited. All rights reserved. <a href="/policies/privacy-policy">Privacy policy (Terms & Conditions) </a> <a href="https://www.neuralcandy.com"><strong>Design by NeuralCandy</strong></a>
+{% endcapture %}
+```
